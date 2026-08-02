@@ -1,7 +1,27 @@
 aid: supermag
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supermag.png
 name: supermag
-description: supermag is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Suzhou Supermag Intelligent Technology Co., Ltd. is a Chinese deep-tech
+  manufacturer specializing in magnetic levitation (maglev) motion and
+  fluid-handling systems. Its product lines include SCM maglev wafer turntables
+  for ultra-clean semiconductor rotation, SCP maglev pumps for contamination-free
+  fluid transport, MSS maglev stirring systems for low-shear mixing, and SCT
+  maglev turbomolecular pumps for high-vacuum applications, serving the
+  semiconductor, biopharmaceutical, chemical, and energy industries. Backed by
+  Qiming Venture Partners, the company markets physical industrial hardware and
+  publishes no public developer API, documentation, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/supermag/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hardware
+- Magnetic Levitation
+- Semiconductors
+- Biopharmaceuticals
+- Industrial Automation
+- Vacuum Technology
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/supermag-domain-security.yml
 - type: Website
   url: https://supermag.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
